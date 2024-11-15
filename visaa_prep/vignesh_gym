@@ -1,0 +1,9 @@
+import sys
+input_info=sys.stdin.read()
+X,Y,Z=map(int,input_info.split())
+if Z>=X+Y:
+    print(2)
+elif Z>=X:
+    print(1)
+else:
+    print(0)
