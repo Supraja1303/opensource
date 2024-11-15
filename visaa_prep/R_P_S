@@ -1,0 +1,7 @@
+Vignesh,Charan=input().split()
+if Vignesh==Charan:
+    print("NULL")
+elif (Vignesh,Charan) in [("R","S"),("P","R"),("S","P")]:
+    print("Vignesh")
+else:
+    print("Charan")
