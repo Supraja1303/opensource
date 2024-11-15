@@ -1,0 +1,11 @@
+mon=int(input())
+if mon==3 or mon==4 or mon==5:
+    print("spring")
+elif mon==6 or mon==7 or mon==8:
+    print("Summer")
+elif mon==9 or mon==10 or mon==11:
+    print("Autnum")
+elif mon==12 or mon==1 or mon==2:
+    print("Winter")
+else:
+    print("Invalid")
