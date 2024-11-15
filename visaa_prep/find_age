@@ -1,0 +1,4 @@
+X=int(input())
+Diff=25-10
+vignesh_present_age=X-Diff
+print(vignesh_present_age)
