@@ -1,0 +1,5 @@
+X=int(input())
+discount_10_percent_off_bill=X*0.9
+discount_100_flat_off_bill=X-100
+Amount=min(discount_10_percent_off_bill,discount_100_flat_off_bill)
+print(int(Amount))
