@@ -1,0 +1,7 @@
+import sys
+inputinfo=sys.stdin.read()
+X,Y=map(int,inputinfo.split())
+if X>=Y:
+    print("YES")
+else:
+    print("NO")
