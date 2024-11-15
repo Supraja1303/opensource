@@ -1,0 +1,4 @@
+N=int(input())
+pages_book=N*1000
+note_books=pages_book//100
+print(note_books)
