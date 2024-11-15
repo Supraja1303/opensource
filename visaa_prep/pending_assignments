@@ -1,0 +1,7 @@
+X,Y,Z=map(int,input().split())
+tot_tm=X*Y
+avail_tm=Z*24*60
+if tot_tm<=avail_tm:
+    print("YES")
+else:
+    print("NO")
